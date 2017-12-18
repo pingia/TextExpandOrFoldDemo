@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/totallayout"
+    android:orientation="vertical"
+    tools:context="com.pingia.cn.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_shortdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:minLines="1"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:text="中华人民共和国中华人民共和国中华人民共和国中"/>
+
+    <ImageView
+        android:id="@+id/expand_iv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/icon_arrow_expand"/>
+
+</LinearLayout>
